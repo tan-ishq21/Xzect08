@@ -1,7 +1,6 @@
 // components/Footer.jsx
 import React from 'react';
 import "./footer.css";
-import Image from 'next/image';
 const Footer = () => {
   return (
     <>
@@ -45,7 +44,7 @@ const Footer = () => {
         <div className="time">Mon - Fri<br/> <span> 10:00 am to 06:00 pm </span> </div>
         <div className="time">Saturday (1st & 4th)<br/> <span> 08:00 am to 04:00 pm </span> </div>
         <div className="emergency">
-            <Image src="https://eurtech-react.vercel.app/assets/img/icon/footet/massege.png" alt="logo" />
+            <img src="https://eurtech-react.vercel.app/assets/img/icon/footet/massege.png" alt="logo" />
             <p>Emergency Service<br/> 000 111 222 33</p>
         </div>
         </div>
@@ -53,7 +52,7 @@ const Footer = () => {
     <div className="nav-adjust py-4">
         <nav className="footer-navbar">
         <div className="footer-logo">
-            <Image src="https://eurtech-react.vercel.app/assets/img/logo/logo-2.png" alt="Logo"/>
+            <img src="https://eurtech-react.vercel.app/assets/img/logo/logo-2.png" alt="Logo"/>
         </div>
         <div className="footer-nav-links">
             <a href="#">ABOUT</a>

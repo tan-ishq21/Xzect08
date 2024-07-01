@@ -1,6 +1,5 @@
 import React from 'react';
 import "./services.css";
-import Image from 'next/image';
 const Services = () => {
   return (
     <div className="service-body">
@@ -18,7 +17,7 @@ const Services = () => {
         <div className="cards-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <div className="card">
             <div className="icon">
-              <Image
+              <img
                 src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-1.png"
                 alt="SEO Icon"
               />
@@ -31,7 +30,7 @@ const Services = () => {
           </div>
           <div className="card">
             <div className="icon">
-              <Image
+              <img
                 src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-2.png"
                 alt="Server Security Icon"
               />
@@ -44,7 +43,7 @@ const Services = () => {
           </div>
           <div className="card">
             <div className="icon">
-              <Image
+              <img
                 src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-3.png"
                 alt="UX/UI Strategy Icon"
               />
@@ -57,7 +56,7 @@ const Services = () => {
           </div>
           <div className="card">
             <div className="icon">
-              <Image
+              <img
                 src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-4.png"
                 alt="Analysis Tools Icon"
               />

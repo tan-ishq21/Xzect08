@@ -1,6 +1,5 @@
 import React from 'react';
 import "./newsinsights.css";
-import Image from 'next/image';
 const NewsInsights = () => {
   return (
     <>
@@ -10,7 +9,7 @@ const NewsInsights = () => {
       <div className="news-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <Image className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-01.jpg" alt="" />
+            <img className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-01.jpg" alt="" />
           </a>
           <div className="p-5">
             <a href="#">
@@ -21,7 +20,7 @@ const NewsInsights = () => {
         </div>
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <Image className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-02.jpg" alt="" />
+            <img className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-02.jpg" alt="" />
           </a>
           <div className="p-5">
             <a href="#">
@@ -33,7 +32,7 @@ const NewsInsights = () => {
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <Image className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-03.jpg" alt="" />
+            <img className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-03.jpg" alt="" />
           </a>
           <div className="p-5">
             <a href="#">
@@ -45,7 +44,7 @@ const NewsInsights = () => {
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <Image className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-01.jpg" alt="" />
+            <img className="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-01.jpg" alt="" />
           </a>
           <div className="p-5">
             <a href="#">

@@ -1,16 +1,15 @@
 import React from 'react';
 import './header.css';
-import Image from 'next/image';
 
 const Header = () => {
   return (
     <div className="container mx-auto p-4">
       <div className="main-logo mb-4">
-        <Image src="https://eurtech-react.vercel.app/assets/img/logo/logo.png" alt="EurTech logo" />
+        <img src="https://eurtech-react.vercel.app/assets/img/logo/logo.png" alt="EurTech logo" />
       </div>
       <div className="contact-info">
         <div className="call-us flex items-center mb-4">
-          <Image
+          <img
             src="https://eurtech-react.vercel.app/assets/img/icon/header/header-icon-01.png"
             alt="Call us icon"
             className="mr-2"
@@ -23,7 +22,7 @@ const Header = () => {
           </div>
         </div>
         <div className="email flex items-center mb-4">
-          <Image
+          <img
             src="https://eurtech-react.vercel.app/assets/img/icon/header/header-icon-02.png"
             alt="Email icon"
             className="mr-2"

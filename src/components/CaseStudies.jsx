@@ -31,7 +31,7 @@ const CaseStudies = () => {
 
   return (
     <div className="case-study-container">
-      <h3 className="portfolio">// portfolio</h3>
+      <h3 className="portfolio">{'//'} portfolio</h3>
       <h1 className="title3">Case Studies</h1>
       <div className="card-container2">
         {caseStudies.map((study, index) => (

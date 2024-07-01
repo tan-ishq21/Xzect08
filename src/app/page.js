@@ -19,7 +19,6 @@ export default function Home() {
     <div>
       <Head>
         <title>EurTech</title>
-        <link rel="stylesheet" href="/styles.css" />
       </Head>
       <Navbar />
       <Header />

@@ -28,7 +28,7 @@ const Testimonials = () => {
               {'"The worlds #2 web data platform from data collection infrastructure to ready-made datasets, brights to allow you to retrieve the public web data you care about."'}
             </p>
             <div className="user">
-              <img
+              <Image
                 src="https://eurtech-react.vercel.app/assets/img/testimonial/author/author-02.png"
                 alt="Alexis D. Dowson"
               />

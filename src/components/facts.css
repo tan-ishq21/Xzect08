@@ -1,0 +1,101 @@
+.facts-container {
+    margin-top: 40px;
+    display: flex;
+    background-color: #f1ecec;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .left-side {
+    padding: 50px;
+    width: 50%;
+    color: #333;
+  }
+  
+  .right-side {
+    position: relative;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .right-side img {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+  
+  .fact-head {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  
+  .facts {
+    color: #007bff;
+    font-weight: bolder;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+  }
+  
+  .stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stats p {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #333;
+  }
+  
+  .stat span {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  .progress-bar {
+    width: 90%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .fill {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+  }
+  
+  .play-button {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 160px;
+    right: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .play-button:hover {
+    background-color: #4574d8;
+  }
+  
+  .play-button svg {
+    width: 36px;
+    height: 36px;
+    fill: #000000;
+  }

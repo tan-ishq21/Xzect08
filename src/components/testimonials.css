@@ -1,0 +1,80 @@
+.main-testimonial {
+    margin-top: 40px;
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148844576.jpg?w=900&t=st=1718522757~exp=1718523357~hmac=34f4e8408ab088f16798948c9a15e174917071fbcb87f91073b9798311181b44');
+  }
+  
+  .testimonials {
+    font-size: 18px;
+    font-weight: bold;
+    color: #009dff;
+  }
+  
+  .testi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .testi-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* max-width: 1200px; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testi-card {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testi-card p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #827c7c;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user h4 {
+    margin: 0;
+  }
+  
+  .user p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }
+  
+  .testi-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,36 @@
+
+.centerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 50%, #222 50%);
+    margin-top: 100px;
+  }
+  
+  .container-division {
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .segment {
+    border-radius: 10px;
+  }
+  
+  .item {
+    /* background-image: linear-gradient(to right,  rgb(0, 157, 255), #668cff); */
+    background-color: #009dff;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .text {
+    font-size: 18px;
+  }
+  

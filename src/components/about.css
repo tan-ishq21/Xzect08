@@ -1,0 +1,84 @@
+.container-about {
+    display: flex;
+  }
+  
+  .left-section {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .experience-card {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    color: #fff;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    z-index: 1;
+  }
+  
+  .number {
+    font-size: 32px;
+  }
+  
+  .experience-text {
+    font-size: 16px;
+  }
+  
+  .right-section {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .about-us {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-text {
+    font-size: 14px;
+    color: #3aa1fa;
+  }
+  
+  .heading-about {
+    margin-bottom: 20px;
+  }
+  
+  .heading-text {
+    font-size: 42px;
+    font-weight: bolder;
+    color: #191818;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .description-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: grey;
+  }
+  
+  .features {
+    margin-bottom: 20px;
+  }
+  
+  .features-text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .author {
+    margin-bottom: 20px;
+  }
+  
+  .author-text {
+    font-size: 14px;
+    color: #000000;
+  }
+  

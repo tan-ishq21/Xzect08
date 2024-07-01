@@ -1,0 +1,55 @@
+.service-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .container-service {
+    max-width: 1200px;
+    padding: 20px;
+    /* text-align: center; */
+  }
+  
+  
+  .card {
+    height: 300px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+  }
+  
+  .card:hover {
+    border: 2px solid #009dff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .c-head {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: #2097f9;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  

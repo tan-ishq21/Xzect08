@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  .main-logo {
+    margin-right: 50px;
+  }
+  
+  .main-logo img {
+    width: 62%;
+    height: 75px;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info>div {
+    margin-right: 50px;
+  }
+  
+  .call-us {
+    display: flex;
+    align-items: center;
+  }
+  
+  .call-us span,
+  .email span {
+    margin: 10px;
+  }
+  
+  .call-us img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .email {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .start-button {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .start-button:hover {
+    background-color: #009dff;
+  }
+  

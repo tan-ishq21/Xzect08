@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-container py-8">
         <div className="footer-section">
         <h2>About Us</h2>
-        <p>Learn from industry-leading speakers like Romain Guy and Chet Haase who have been building Android since 1.0,
+        <p>Learn from industry-leading speakers like Romain Guy and Chet Haase who have been building Android since 1.0
             Jhey Tompkins and Una Kravets from the Google Chrome team.</p>
         </div>
         <div className="footer-section">
@@ -63,7 +63,7 @@ const Footer = () => {
     </div>
     <div className="nav-adjust">
         <div className="copyright">
-        <p>Copyright & design by <span> @Tanishq Raj </span> - 2024 </p>
+        <p>Copyright & design by <span> {'@'}Tanishq Raj </span> - 2024 </p>
         </div>
     </div>
     </>

@@ -1,24 +1,23 @@
 import React from 'react';
 import "./about.css"
 import img from "./img-1.jpg"
+import Image from 'next/image';
 const About = () => {
   return (
     <div className="container-about">
       <div className="left-section">
-        <img src={img.src} height="100%" width="100%" alt="about-img" />
+        <Image src={img.src} height="100%" width="100%" alt="about-img" />
       </div>
       <div className="right-section">
         <div className="about-us">
-          <div className="about-us-text">// About Us</div>
+          <div className="about-us-text">{'//'} About Us</div>
         </div>
         <div className="heading-about">
           <div className="heading-text">Best in classy product near from you.</div>
         </div>
         <div className="description">
           <div className="description-text">
-            From finance, retail, and travel, to social media, cybersecurity, adtech,
-            and more, market leaders are leveraging web data to maintain their
-            advantage. Discover how it can work for you.
+            From finance, retail, and travel, to social media, cybersecurity, adtech, and more, market leaders are leveraging web data to maintain their advantage. Discover how it can work for you.
           </div>
         </div>
         <div className="features">

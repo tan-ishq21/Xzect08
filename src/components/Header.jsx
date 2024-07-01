@@ -30,7 +30,7 @@ const Header = () => {
           <div>
             <span>Email Address</span>
             <span>
-              <b>info@wemail.com</b>
+              <b>{'info@wemail.com'}</b>
             </span>
           </div>
         </div>

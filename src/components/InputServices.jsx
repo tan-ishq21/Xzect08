@@ -3,7 +3,7 @@ import "./inputservices.css";
 const InputServices = () => {
   return (
     <div className="input-services-container">
-      <div className="ser-name">// services //</div>
+      <div className="ser-name">{'//'} services {'//'}</div>
       <div className="ser-head">What we do here</div>
       <div className="parent">
         <div className="input-field">

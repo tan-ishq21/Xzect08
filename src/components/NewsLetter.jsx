@@ -6,7 +6,7 @@ const Newsletter = () => {
       <div className="container-division">
         <div className="main-newsl">
           <div className="newsletter">
-            // newsletter
+          {'//'} newsletter
           </div>
           <div className="parent2">
             <div className="user-feed">

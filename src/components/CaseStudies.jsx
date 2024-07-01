@@ -1,5 +1,6 @@
 import React from 'react';
 import "./casestudies.css";
+import Image from 'next/image';
 const CaseStudies = () => {
   const caseStudies = [
     {
@@ -26,7 +27,6 @@ const CaseStudies = () => {
       description: 'Description for Case Study 1.',
       link: 'https://eurtech-react.vercel.app/case-details/1',
     },
-    // Add more case studies as needed
   ];
 
   return (
@@ -36,7 +36,7 @@ const CaseStudies = () => {
       <div className="card-container2">
         {caseStudies.map((study, index) => (
           <div key={index} className="card2">
-            <img src={study.imgSrc} alt={study.title} />
+            <Image src={study.imgSrc} alt={study.title} />
             <div className="overlay2">
               <div className="text2">
                 <h2>{study.title}</h2>

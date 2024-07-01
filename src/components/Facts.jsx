@@ -1,10 +1,11 @@
 import React from 'react';
 import "./facts.css";
+import Image from 'next/image';
 const Facts = () => {
   return (
     <div className="facts-container">
       <div className="left-side">
-        <div className="facts">// Some Facts</div>
+        <div className="facts">{'//'} Some Facts</div>
         <h1 className="fact-head">The best customer experience</h1>
         <div className="stats">
           <p>Design & Servicing</p>
@@ -31,7 +32,7 @@ const Facts = () => {
         </div>
       </div>
       <div className="right-side">
-        <img
+        <Image
           src="https://eurtech-react.vercel.app/assets/img/skill/skills-img.png"
           alt="Customer Experience Image"
         />
